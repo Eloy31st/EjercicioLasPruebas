@@ -1,5 +1,5 @@
 public class ClaseCadena {
-    public String DevuelveIniciales(String nombre){
+    public static String DevuelveIniciales(String nombre){
         String iniciales = "";
         if(nombre == null || nombre.isEmpty())
             return iniciales;

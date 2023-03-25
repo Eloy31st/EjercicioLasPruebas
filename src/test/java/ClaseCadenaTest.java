@@ -1,0 +1,9 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+class ClaseCadenaTest {
+
+    @org.junit.jupiter.api.Test
+    void devuelveIniciales() {
+        String prueba1 = ClaseCadena.DevuelveIniciales("Eloy Sánchez Tamayo");
+    }
+}
